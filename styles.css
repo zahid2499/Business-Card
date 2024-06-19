@@ -1,0 +1,60 @@
+/* Basic styling for the body */
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif; /* Web-safe font */
+}
+
+/* Styling for the profile image */
+.avatar {
+    width: 150px;
+    border-radius: 75px; /* Circular image */
+}
+
+/* Styling for the business card */
+.card {
+    width: 400px;
+    margin: 0 auto; /* Center align */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #b7c1a2; /* Background color */
+    color: #08031b; /* Text color */
+    border-bottom: 6px solid #011721; /* Bottom border */
+    text-shadow: 2px 2px 4px #ffffff; /* Text shadow */
+    animation-name: example; /* Animation name */
+    animation-iteration-count: infinite; /* Infinite loop */
+    animation-duration: 10s; /* Animation duration */
+}
+
+/* Hover effect for paragraphs */
+p:hover {
+    background-color: beige;
+    color: black;
+}
+
+/* Hover effect for h3 headings */
+h3:hover {
+    background-color: rgb(157, 156, 199);
+    color: black;
+}
+
+/* Hover effect for h4 headings */
+h4:hover {
+    background-color: rgb(188, 227, 219);
+    color: rgb(0, 0, 0);
+}
+
+/* Blue dotted border (not used in HTML) */
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/* Keyframes for background color animation */
+@keyframes example {
+    0%   {background-color: #22223b;}
+    25%  {background-color: #4a4e69;}
+    50%  {background-color: #9a8c98;}
+    75%  {background-color: #c9ada7;}
+    100% {background-color: #f2e9e4;}
+}
